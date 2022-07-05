@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+.containe{
+    width: 100%;
+    max-width: 1200px;
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.containe .car{
+    background: #fee440;
+
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.containe .car:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+.containe .car img{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 230px;
+    height: 230px;
+}
+.containe .car h4{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.containe .car p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.containe .car a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498;
+    font-family: 'Roboto', sans-serif;
+}
